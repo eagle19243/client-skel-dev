@@ -22,6 +22,11 @@ describe('AuthPage', () => {
 
   it('should have div component with className "content"', () => {
     const authPage = render();
-    expect(authPage.find('div').last().hasClass('content')).toEqual(true);
+    expect(
+      authPage
+        .find('div')
+        .last()
+        .hasClass('content'),
+    ).toEqual(true);
   });
 });
