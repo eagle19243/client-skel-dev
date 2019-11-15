@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { Auth } from 'aws-amplify';
 import AppState from '../../support/AppState';
-import { Link } from 'react-router-dom';
 
 class SignInForm extends React.Component {
   state = {
