@@ -4,6 +4,8 @@ import { shallow } from 'enzyme';
 
 import SignIn from '../../components/pages/SignIn';
 import SiteNav from '../../components/partials/SiteNav';
+import SignInForm from '../../components/partials/SignInForm';
+import AuthForm from '../../components/partials/AuthForm';
 
 describe('SignIn', () => {
   const render = () => {
@@ -39,5 +41,15 @@ describe('SignIn', () => {
   it('should have 1 Col component', () => {
     const signInPage = render();
     expect(signInPage.find(Col)).toHaveLength(1);
+  });
+
+  it('should have SignInForm component', () => {
+    const signInPage = render();
+    expect(signInPage.find(SignInForm)).toHaveLength(1);
+  });
+
+  it('should not have AuthForm component', () => {
+    const signInPage = render();
+    expect(signInPage.find(AuthForm)).toHaveLength(0);
   });
 });

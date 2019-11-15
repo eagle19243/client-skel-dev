@@ -5,6 +5,7 @@ import AppState from '../../support/AppState';
 class AlertBanner extends React.Component {
   constructor(props) {
     super(props);
+    
     this.state = { visible: false, color: 'light', text: '' };
     const { set_prop } = AppState;
     set_prop('showAlertBanner', this.showAlertBanner);
