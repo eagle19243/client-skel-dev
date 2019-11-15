@@ -40,6 +40,7 @@ class AuthForm extends React.Component {
         set_prop('AlertBanner', AlertBanner);
       });
   };
+  
   resendSignUp = () => {
     const { set_prop } = AppState;
     Auth.resendSignUp(this.state.username)
