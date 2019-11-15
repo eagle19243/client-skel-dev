@@ -1,20 +1,16 @@
-import React from "react";
-import SiteNav from "../partials/SiteNav";
-// import AppState from '../../support/AppState';
-import { withRouter } from 'react-router-dom'
+import React from 'react';
+import { withRouter } from 'react-router-dom';
+import SiteNav from '../partials/SiteNav';
 
 class Home extends React.Component {
-
-	render() {
-	  return (
+  render() {
+    return (
       <div>
         <SiteNav />
-			  <div className="content">
-          Home
-			  </div>
+        <div className="content">Home</div>
       </div>
-	  );
-	}
-};
+    );
+  }
+}
 
 export default withRouter(Home);
