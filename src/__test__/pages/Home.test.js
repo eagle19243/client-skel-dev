@@ -7,7 +7,6 @@ import SiteNav from '../../components/partials/SiteNav';
 describe('Home', () => {
   const render = () => {
     const wrapper = shallow(<Home.WrappedComponent />);
-    console.log('Wrapper - ', wrapper);
     return wrapper;
   };
 
