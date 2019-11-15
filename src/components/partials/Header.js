@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from '../../logo.png';
-import { view } from 'react-easy-state';
 import { Row, Col } from 'reactstrap';
+import { view } from 'react-easy-state';
 import UserNav from './UserNav';
 import AppState from '../../support/AppState';
 
@@ -17,7 +16,7 @@ class Header extends React.Component {
         <Row>
           <Col xs={{ size: 12 }} sm={{ size: 6 }} md={{ size: 9 }}>
             <img
-              src={logo}
+              src='../../logo.png'
               className="App-logo cursor-pointer"
               alt="logo"
               onClick={this.goHome}
