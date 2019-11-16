@@ -15,8 +15,19 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `JEST`
+
+Jest is a delightful Javascript Testing Framework with a focus on simplicify.
+
+It works with projects using: Babel, Typescript, Node, React, Angular, Vue and more!
+
+For more information, feel free to visit [https://jestjs.io/en](https://jestjs.io/en).
+
+#### `Enzyme`
+
+Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output. You can also manipulate, traverse, and in some ways simulate runtime given the output.
+
+For more information, feel free to visit [https://airbnb.io/enzyme](https://airbnb.io/enzyme).
 
 ### `yarn build`
 
